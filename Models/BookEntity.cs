@@ -8,7 +8,7 @@ namespace Dz_15.Models
 {
     public class BookEntity
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         public string Title { get; set; }
         public Guid AuthorId { get; set; }
         public AuthorEntity Author { get; set; }
